@@ -22,6 +22,7 @@ from keras.regularizers import l2
 from keras.optimizers import SGD, Adam
 from keras.utils import plot_model
 from keras.callbacks import ModelCheckpoint  
+import tensorflow as tf
 
 import argparse
 parser = argparse.ArgumentParser(description='Train-Test-Deploy')

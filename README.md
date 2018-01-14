@@ -1,10 +1,10 @@
-# *FingerNet* : An Universal Deep Convolutional Network for Extracting Fingerprint Representation
+# *FingerNet* : A Universal Deep Convolutional Network for Extracting Fingerprint Representation
 
 By Yao Tang, Fei Gao, JuFu Feng and YuHang Liu at Peking University
 
 ### Introduction
 
-**FingerNet** is an universal deep ConvNet for extracting fingerprint representations including orientation field, segmentation, enhenced fingerprint and minutiae. It can produce reliable results on both rolled/slap and latent fingerprints.
+**FingerNet** is a universal deep ConvNet for extracting fingerprint representations including orientation field, segmentation, enhanced fingerprint and minutiae. It can produce reliable results on both rolled/slap and latent fingerprints.
 
 Here is a Python implementation of FingerNet. This code has been tested on Ubuntu 14.04 and Python2.7.
 

@@ -117,3 +117,10 @@ GPU: Titan, Titan Black, Titan X, K20, K40, K80.
 0. Run `python train_test_deploy.py 0 test` to test your model.
     - Different from Predicting, Testing requires datasets to have at least mnt labels and segmentation labels. 
     - Change `test_set=['*/', ...'*/']` in line 44 in `train_test_deploy.py` to test other datasets.
+
+### With Docker
+
+0. Install [nvidia-docker](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
+0. Go to project root directory `.../FingerNet/`
+0. `$ nvidia-docker build -t fingernet .`
+0. `$ nvidia-docker run -it --rm fingernet bash`
